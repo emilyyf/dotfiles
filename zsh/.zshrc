@@ -1,11 +1,11 @@
 # Plugins
 source ~/.zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-source ~/.zsh/plugins/zsh-git-prompt/zshrc.sh
+source ~/.zsh/plugins/git-prompt.sh
 
 # Prompt display
 PS1="> "
-RPS1="%(?..%F{red}%?%f) %~ \$(git_super_status)"
+RPS1="%(?..%F{red}%?%f) %~ \$(__git_ps1)"
 
 # External configs
 source ~/.zsh/aliases

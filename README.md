@@ -6,6 +6,6 @@ For zsh it's necessary to:
 - move the files `aliases` and `functions` to `~/.zsh`
 - create `~/.zsh/plugins`
 - clone the following plugins in  `~/.zsh/plugins`
-	- [zsh-git-prompt](https://github.com/olivierverdier/zsh-git-prompt)
 	- [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 	- [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+	- [git-prompt.sh](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh)
