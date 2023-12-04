@@ -9,3 +9,7 @@ For zsh it's necessary to:
 	- [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 	- [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 	- [git-prompt.sh](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh)
+
+## Emacs
+The emacs config is based on [Doom Emacs](https://github.com/doomemacs/doomemacs)
+To install, simply replace the files in `~/.config/doom` after installing Doom Emacs
