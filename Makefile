@@ -9,4 +9,7 @@ emacs:
 	stow --restow --verbose --target=$$HOME emacs
 	$$HOME/.config/emacs/bin/doom sync
 
+nvim:
+	stow --restow --verbose --target=$$HOME nvim
+
 all: zsh emacs

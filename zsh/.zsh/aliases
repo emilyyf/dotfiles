@@ -1,6 +1,8 @@
 # Aliases
 alias md='mkdir -p'
-alias v='vim'
+alias v='nvim'
+alias vi='nvim'
+alias vim='nvim'
 alias javar='java -jar'
 alias ping=' ping -c 5'
 alias 'cd..'='cd ..'
