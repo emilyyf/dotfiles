@@ -1,3 +1,6 @@
 return {
-	"rebelot/kanagawa.nvim"
+	"rebelot/kanagawa.nvim",
+	opts = {
+		transparent = true,
+	},
 }
