@@ -12,4 +12,7 @@ emacs:
 nvim:
 	stow --restow --verbose --target=$$HOME nvim
 
-all: zsh emacs
+tmux:
+	stow --restow --verbose --target=$$HOME tmux
+
+all: zsh nvim tmux

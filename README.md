@@ -10,3 +10,6 @@ The emacs config is based on [Doom Emacs](https://github.com/doomemacs/doomemacs
 
 ## neovim
 The neom vim config is based on the [ThePrimeagen config](https://github.com/ThePrimeagen/init.lua)
+
+## tmux
+Based on [this post by Ham](https://hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/)
