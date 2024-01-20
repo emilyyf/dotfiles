@@ -15,4 +15,11 @@ nvim:
 tmux:
 	stow --restow --verbose --target=$$HOME tmux
 
-all: zsh nvim tmux
+yabai:
+	stow --restow --verbose --target=$$HOME yabai
+
+skhd:
+	stow --restow --verbose --target=$$HOME skhd
+
+sketchybar:
+	stow --restow --verbose --target=$$HOME SketchyBar
