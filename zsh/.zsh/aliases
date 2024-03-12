@@ -27,6 +27,8 @@ alias fkbye='halt'
 alias cya='reboot'
 alias please='sudo'
 alias dn='date +"%Y%m%d %H%M %Z"'
+alias aoeu='setxkbmap us'
+alias asdf='setxkbmap us dvorak'
 if [[ $(uname) == "Darwin" ]]; then
 	alias emacs='open -a /Applications/Emacs.app "$@"'
 fi
