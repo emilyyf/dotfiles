@@ -22,3 +22,8 @@ vim.keymap.set({"n", "v"}, "<leader>d", [["_d]])
 vim.keymap.set("n", "Q", "<nop>")
 vim.keymap.set("n", "<leader>f", vim.lsp.buf.format)
 
+
+vim.keymap.set("n", "<tab>", vim.cmd.bnext)
+vim.keymap.set("n", "<S-tab>", vim.cmd.bNext)
+vim.keymap.set("n", "<leader>x", vim.cmd.bdelete)
+
